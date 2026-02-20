@@ -1267,16 +1267,16 @@
 
     /* 900px — mobile nav collapse */
     @media (max-width: 900px) {
-      /* Fix logo position: push logo to far right in RTL */
+      /* Fix logo position: keep logo on the right in RTL */
       .navbar-logo {
-        order: 3;
-        margin-inline-start: auto;
-      }
-      .navbar-actions {
         order: 1;
       }
       .navbar-links {
         order: 2;
+      }
+      .navbar-actions {
+        order: 3;
+        margin-inline-start: auto;
       }
     }
 
