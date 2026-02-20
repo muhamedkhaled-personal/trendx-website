@@ -2040,8 +2040,32 @@
 
     /* ─── Enhanced Mobile Fixes ─── */
 
+    /* 900px — mobile nav collapse */
+    @media (max-width: 900px) {
+      /* Fix logo position: push logo to far right in RTL */
+      .navbar-logo {
+        order: 3;
+        margin-inline-start: auto;
+      }
+      .navbar-actions {
+        order: 1;
+      }
+      .navbar-links {
+        order: 2;
+      }
+    }
+
     /* 768px — tablets & large phones */
     @media (max-width: 768px) {
+      /* Top bar: stack text and link on smaller screens */
+      .top-bar {
+        height: auto;
+        min-height: 40px;
+        flex-wrap: wrap;
+        padding: 8px 16px;
+        font-size: 13px;
+        gap: 2px 6px;
+      }
       .section-subtitle { margin-bottom: 32px; font-size: 16px; }
       .form-header { margin-bottom: 32px; }
       .reward-steps { margin-bottom: 32px; }
@@ -2052,6 +2076,16 @@
 
     /* 520px — small phones */
     @media (max-width: 520px) {
+      /* Top bar: smaller text, tighter layout */
+      .top-bar {
+        font-size: 12px;
+        padding: 6px 12px;
+        gap: 2px 4px;
+      }
+      .top-bar a {
+        margin-inline-start: 4px;
+        font-size: 12px;
+      }
       .hero-box { padding: 36px 16px 0; min-height: auto; }
       .hero-stat-value { font-size: 22px; }
       .hero-stats { gap: 20px; }
@@ -2076,6 +2110,10 @@
 
     /* 375px — very small phones */
     @media (max-width: 375px) {
+      .top-bar {
+        font-size: 11px;
+        padding: 6px 10px;
+      }
       .container { padding: 0 16px; }
       .how-section, .survey-section, .cta-section,
       .form-section, .biz-redirect, .app-section { margin: 0 8px; }
