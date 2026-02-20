@@ -1259,6 +1259,59 @@
         height: 180px;
       }
     }
+
+    /* ─── Global Image Safety ─── */
+    img { max-width: 100%; height: auto; }
+
+    /* ─── Enhanced Mobile Fixes ─── */
+
+    /* 768px — tablets & large phones */
+    @media (max-width: 768px) {
+      .section-subtitle { margin-bottom: 32px; font-size: 16px; }
+      .form-header { margin-bottom: 32px; }
+      .footer { margin-top: 48px; }
+      .how-section { margin: 0 16px; }
+      .hero-stats { flex-wrap: wrap; }
+      .biz-hero-stats { flex-wrap: wrap; }
+      .cta-inner { padding: 48px 24px; }
+      #panel-insights { padding: 56px 0; }
+    }
+
+    /* 520px — small phones */
+    @media (max-width: 520px) {
+      .hero-box { padding: 36px 16px 0; min-height: auto; }
+      .biz-hero-box { padding: 36px 16px; }
+      .hero-stat-value { font-size: 22px; }
+      .hero-stats { gap: 20px; }
+      .biz-hero-stat-value { font-size: 22px; }
+      .biz-hero-stats { gap: 20px; }
+      .cta-inner { padding: 36px 16px; }
+      .survey-inner { padding: 32px 16px; }
+      .step-number { width: 56px; height: 56px; font-size: 22px; }
+      .org-card-grid { grid-template-columns: 1fr; }
+      .org-card-icon { font-size: 26px; }
+      .section { padding: 40px 0; }
+      #panel-insights { padding: 40px 0; }
+      .panel-demo-card { padding: 20px; }
+      .report-card-featured { min-height: 260px; }
+      .trendo-char-hero { display: none; }
+      .trendo-cta-char { display: none; }
+    }
+
+    /* 480px — footer single column */
+    @media (max-width: 480px) {
+      .footer-grid { grid-template-columns: 1fr; }
+    }
+
+    /* 375px — very small phones */
+    @media (max-width: 375px) {
+      .container { padding: 0 16px; }
+      .how-section, .survey-section, .cta-section,
+      .form-section, .biz-redirect, .app-section { margin: 0 8px; }
+      .form-section { padding: 32px 16px; }
+      .biz-redirect { padding: 28px 16px; }
+      .top-bar { font-size: 12px; padding: 8px 16px; }
+    }
   </style>
 </head>
 <body>
