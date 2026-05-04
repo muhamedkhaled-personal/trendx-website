@@ -1,6 +1,7 @@
 import SectionHeader from "@/components/shared/SectionHeader";
 import FadeInSection from "@/components/shared/FadeInSection";
 import Container from "@/components/shared/Container";
+import Icon from "@/components/shared/Icon";
 import type { PanelStatItem, DemoBarItem } from "@/types";
 
 interface DemoCard {
@@ -85,7 +86,7 @@ export default function PanelInsights({
           <FadeInSection>
             <div className="bg-white/[0.06] border border-white/[0.08] rounded-2xl p-7 max-sm:p-5">
               <h4 className="text-[15px] font-bold text-white mb-5 flex items-center gap-2.5">
-                <span className="text-xl">{demographics.gender.icon}</span>
+                <Icon name={demographics.gender.icon} size={18} strokeWidth={1.75} className="text-[#7DDBA3]" />
                 {demographics.gender.title}
               </h4>
               {demographics.gender.bars && (
@@ -98,7 +99,7 @@ export default function PanelInsights({
           <FadeInSection>
             <div className="bg-white/[0.06] border border-white/[0.08] rounded-2xl p-7 max-sm:p-5">
               <h4 className="text-[15px] font-bold text-white mb-5 flex items-center gap-2.5">
-                <span className="text-xl">{demographics.age.icon}</span>
+                <Icon name={demographics.age.icon} size={18} strokeWidth={1.75} className="text-[#7DDBA3]" />
                 {demographics.age.title}
               </h4>
               {demographics.age.bars && (
@@ -111,7 +112,7 @@ export default function PanelInsights({
           <FadeInSection>
             <div className="bg-white/[0.06] border border-white/[0.08] rounded-2xl p-7 max-sm:p-5">
               <h4 className="text-[15px] font-bold text-white mb-5 flex items-center gap-2.5">
-                <span className="text-xl">{demographics.interests.icon}</span>
+                <Icon name={demographics.interests.icon} size={18} strokeWidth={1.75} className="text-[#7DDBA3]" />
                 {demographics.interests.title}
               </h4>
               {demographics.interests.tags && (

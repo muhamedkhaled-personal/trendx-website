@@ -28,10 +28,13 @@ export interface StepCard {
 }
 
 export interface ServiceCard {
-  icon: string;
+  tag: string;
   title: string;
   description: string;
-  features?: string[];
+  bullets: string[];
+  cta: { label: string; href: string };
+  highlight?: boolean;
+  mascot?: boolean;
 }
 
 export interface ReportCard {

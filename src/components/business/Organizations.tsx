@@ -2,6 +2,7 @@ import SectionLabel from "@/components/shared/SectionLabel";
 import FadeInSection from "@/components/shared/FadeInSection";
 import Container from "@/components/shared/Container";
 import Button from "@/components/shared/Button";
+import Icon from "@/components/shared/Icon";
 import type { OrgCard } from "@/types";
 
 interface OrganizationsProps {
@@ -64,8 +65,8 @@ export default function Organizations({
                   key={i}
                   className="bg-white border border-black/[0.04] rounded-2xl p-6 text-center shadow-card transition-all duration-300 hover:shadow-[0_8px_28px_rgba(0,0,0,.06)] hover:-translate-y-0.5"
                 >
-                  <div className="text-[32px] max-sm:text-[26px] mb-2.5">
-                    {card.icon}
+                  <div className="w-12 h-12 max-sm:w-10 max-sm:h-10 rounded-xl bg-green-light text-green flex items-center justify-center mx-auto mb-2.5">
+                    <Icon name={card.icon} size={24} strokeWidth={1.75} />
                   </div>
                   <h4 className="text-[15px] font-bold text-navy mb-1">
                     {card.title}

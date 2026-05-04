@@ -2,7 +2,14 @@ import SectionLabel from "@/components/shared/SectionLabel";
 import Button from "@/components/shared/Button";
 import FadeInSection from "@/components/shared/FadeInSection";
 import Container from "@/components/shared/Container";
+import Ticker from "@/components/business/Ticker";
 import type { StatItem } from "@/types";
+
+interface TickerItem {
+  category: string;
+  value: string;
+  delta: string;
+}
 
 interface BizHeroProps {
   badge: string;
@@ -11,6 +18,7 @@ interface BizHeroProps {
   ctaPrimary: { label: string; href: string };
   ctaSecondary: { label: string; href: string };
   stats: StatItem[];
+  ticker: { label: string; items: TickerItem[] };
 }
 
 export default function BizHero({
@@ -20,6 +28,7 @@ export default function BizHero({
   ctaPrimary,
   ctaSecondary,
   stats,
+  ticker,
 }: BizHeroProps) {
   return (
     <section className="bg-ice pt-[140px] pb-0">
@@ -64,6 +73,11 @@ export default function BizHero({
                   </div>
                 ))}
               </div>
+            </div>
+
+            {/* Ticker — live data band */}
+            <div className="relative z-[2]">
+              <Ticker label={ticker.label} items={ticker.items} />
             </div>
 
             {/* Decorative green blob */}

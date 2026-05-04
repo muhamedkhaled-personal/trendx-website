@@ -56,7 +56,7 @@ export default async function LandingPage({
         locale={params.locale}
         langToggleLabel={dict.shared.navbar.langToggleLabel}
       />
-      <Hero {...dict.landing.hero} />
+      <Hero {...dict.landing.hero} locale={params.locale} />
       <Features {...dict.landing.features} />
       <WhyTrendX {...dict.landing.whyTrendX} />
       <HowItWorks {...dict.landing.howItWorks} />

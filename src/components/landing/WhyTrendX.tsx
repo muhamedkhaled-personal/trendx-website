@@ -1,6 +1,7 @@
 import SectionHeader from "@/components/shared/SectionHeader";
 import FadeInSection from "@/components/shared/FadeInSection";
 import Container from "@/components/shared/Container";
+import Icon from "@/components/shared/Icon";
 
 interface WhyCard {
   icon: string;
@@ -35,7 +36,9 @@ export default function WhyTrendX({ label, title, cards }: WhyTrendXProps) {
           {cards.map((card, i) => (
             <FadeInSection key={i} className="flex-1">
               <div className="bg-white/5 border border-white/10 rounded-2xl p-7 backdrop-blur-sm transition hover:-translate-y-1 h-full">
-                <div className="text-3xl mb-4">{card.icon}</div>
+                <div className="w-12 h-12 rounded-xl bg-green/15 text-[#7DDBA3] flex items-center justify-center mb-4">
+                  <Icon name={card.icon} size={24} strokeWidth={1.75} />
+                </div>
                 <h3 className="text-lg font-bold text-white mb-2">
                   {card.title}
                 </h3>

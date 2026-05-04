@@ -4,6 +4,7 @@ import Image from "next/image";
 import SectionLabel from "@/components/shared/SectionLabel";
 import FadeInSection from "@/components/shared/FadeInSection";
 import Container from "@/components/shared/Container";
+import Icon from "@/components/shared/Icon";
 
 interface FloatingBadgeData {
   emoji: string;
@@ -184,7 +185,9 @@ export default function AppSection({
                         animation: 'phoneBadgeFloat 3.5s ease-in-out infinite',
                       }}
                     >
-                      <span className="text-xl">{topBadge.emoji}</span>
+                      <span className="w-8 h-8 rounded-lg bg-green-light text-green flex items-center justify-center flex-shrink-0">
+                        <Icon name={topBadge.emoji} size={18} strokeWidth={1.75} />
+                      </span>
                       <div>
                         <div className="text-xs font-semibold text-navy">
                           {topBadge.text}
@@ -211,7 +214,9 @@ export default function AppSection({
                         animationDelay: '1.5s',
                       }}
                     >
-                      <span className="text-xl">{bottomBadge.emoji}</span>
+                      <span className="w-8 h-8 rounded-lg bg-green-light text-green flex items-center justify-center flex-shrink-0">
+                        <Icon name={bottomBadge.emoji} size={18} strokeWidth={1.75} />
+                      </span>
                       <div>
                         <div className="text-xs font-semibold text-navy">
                           {bottomBadge.text}

@@ -3,30 +3,9 @@ import SectionLabel from "@/components/shared/SectionLabel";
 import Button from "@/components/shared/Button";
 import FadeInSection from "@/components/shared/FadeInSection";
 import Container from "@/components/shared/Container";
+import LivePollCard from "@/components/landing/LivePollCard";
 import type { StatItem } from "@/types";
-
-interface EmojiOption {
-  emoji: string;
-  label: string;
-}
-
-interface HeroCardData {
-  avatar: string;
-  name: string;
-  time: string;
-  question: string;
-  emojis: EmojiOption[];
-}
-
-interface FloatingBadge {
-  text: string;
-  top?: string;
-  bottom?: string;
-  left?: string;
-  right?: string;
-  animationDuration: string;
-  animationDelay: string;
-}
+import type { Locale } from "@/lib/i18n";
 
 interface FloatingAvatar {
   src: string;
@@ -39,6 +18,15 @@ interface FloatingAvatar {
   animationDelay: string;
 }
 
+interface PollData {
+  location: string;
+  trendingLabel: string;
+  question: string;
+  options: string[];
+  votesSuffix: string;
+  rewardLabel: string;
+}
+
 interface HeroProps {
   badge: string;
   title: string;
@@ -46,9 +34,9 @@ interface HeroProps {
   ctaPrimary: { label: string; href: string };
   ctaSecondary: { label: string; href: string };
   stats: StatItem[];
-  card: HeroCardData;
-  floatingBadges: FloatingBadge[];
+  poll: PollData;
   floatingAvatars?: FloatingAvatar[];
+  locale: Locale;
 }
 
 export default function Hero({
@@ -58,13 +46,10 @@ export default function Hero({
   ctaPrimary,
   ctaSecondary,
   stats,
-  card,
-  floatingBadges,
+  poll,
   floatingAvatars,
+  locale,
 }: HeroProps) {
-  const topBadge = floatingBadges[0];
-  const bottomBadge = floatingBadges[1];
-
   return (
     <section className="bg-ice pt-[140px] pb-0">
       <Container>
@@ -95,26 +80,6 @@ export default function Hero({
                 />
               </div>
             ))}
-
-            {/* Top floating badge — positioned in hero box */}
-            {topBadge && (
-              <div
-                className="absolute rounded-full px-4 py-2 z-[4] whitespace-nowrap max-lg:hidden hero-float"
-                style={{
-                  backgroundColor: '#ffffff',
-                  boxShadow: '0 6px 24px rgba(0,0,0,0.12)',
-                  ...(topBadge.top ? { top: topBadge.top } : {}),
-                  ...(topBadge.right ? { right: topBadge.right } : {}),
-                  ...(topBadge.left ? { left: topBadge.left } : {}),
-                  animationDuration: topBadge.animationDuration,
-                  animationDelay: topBadge.animationDelay,
-                }}
-              >
-                <span className="text-[13px] font-semibold text-navy">
-                  {topBadge.text}
-                </span>
-              </div>
-            )}
 
             <div className="grid lg:grid-cols-2 gap-8 items-center">
               {/* Left column — Text */}
@@ -154,68 +119,9 @@ export default function Hero({
                 </div>
               </div>
 
-              {/* Right column — Visual (lg+ only) */}
-              <div className="hidden lg:flex justify-center items-end self-end relative">
-                {/* Hero card */}
-                <div className="bg-white rounded-[20px] p-6 shadow-hero-card w-full max-w-[380px] relative z-10 mb-[-2px]">
-                  {/* User row */}
-                  <div className="flex gap-3 items-center mb-4">
-                    <div className="w-11 h-11 rounded-full bg-gradient-to-br from-green to-[#34D399] flex-shrink-0 overflow-hidden">
-                      <Image
-                        src={card.avatar}
-                        alt={card.name}
-                        width={44}
-                        height={44}
-                        className="w-full h-full object-cover rounded-full"
-                      />
-                    </div>
-                    <div>
-                      <div className="text-[15px] font-semibold text-navy">
-                        {card.name}
-                      </div>
-                      <div className="text-[13px] text-gray-400">{card.time}</div>
-                    </div>
-                  </div>
-
-                  {/* Question */}
-                  <p className="text-[15px] text-gray-700 font-medium mb-5 leading-[1.7]">
-                    {card.question}
-                  </p>
-
-                  {/* Emoji options */}
-                  <div className="flex gap-2.5 justify-center flex-wrap">
-                    {card.emojis.map((opt, i) => (
-                      <div
-                        key={i}
-                        className="flex flex-col items-center gap-1 px-3 py-2 rounded-lg bg-ice cursor-pointer transition-all duration-200 hover:bg-green-light hover:-translate-y-0.5"
-                      >
-                        <span className="text-[26px]">{opt.emoji}</span>
-                        <span className="text-[11px] text-gray-500 font-medium">
-                          {opt.label}
-                        </span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                {/* Bottom floating badge — positioned relative to card wrapper */}
-                {bottomBadge && (
-                  <div
-                    className="absolute rounded-full px-4 py-2 z-20 whitespace-nowrap hero-float"
-                    style={{
-                      backgroundColor: '#ffffff',
-                      boxShadow: '0 6px 24px rgba(0,0,0,0.12)',
-                      bottom: '60px',
-                      left: '-20px',
-                      animationDuration: bottomBadge.animationDuration,
-                      animationDelay: bottomBadge.animationDelay,
-                    }}
-                  >
-                    <span className="text-[13px] font-semibold text-navy">
-                      {bottomBadge.text}
-                    </span>
-                  </div>
-                )}
+              {/* Right column — Live poll card (lg+ only) */}
+              <div className="hidden lg:flex justify-center items-end self-end relative pb-12">
+                <LivePollCard {...poll} locale={locale} />
               </div>
             </div>
           </div>

@@ -57,11 +57,11 @@ export default async function BusinessPage({
         locale={params.locale}
         langToggleLabel={dict.shared.navbar.langToggleLabel}
       />
-      <BizHero {...dict.business.hero} />
+      <BizHero {...dict.business.hero} ticker={dict.business.ticker} />
       <Partners label={dict.business.partners.label} locale={params.locale} />
-      <Services {...dict.business.services} />
       <PanelInsights {...dict.business.panelInsights} />
       <Reports {...dict.business.reports} />
+      <Services {...dict.business.services} />
       <SurveyTool {...dict.business.surveyTool} />
       <Organizations {...dict.business.organizations} />
       <ContactForm {...dict.shared.contactForm} />

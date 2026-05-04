@@ -6,7 +6,6 @@ interface SurveyToolProps {
   label: string;
   title: string;
   subtitle: string;
-  features: string[];
   primaryCta: string;
   primaryCtaHref: string;
   secondaryCta: string;
@@ -21,7 +20,6 @@ export default function SurveyTool({
   label,
   title,
   subtitle,
-  features,
   primaryCta,
   primaryCtaHref,
   secondaryCta,
@@ -47,22 +45,9 @@ export default function SurveyTool({
                 {title}
               </h2>
 
-              <p className="text-base text-white/65 leading-relaxed mb-7">
+              <p className="text-base text-white/65 leading-relaxed mb-9">
                 {subtitle}
               </p>
-
-              <div className="flex flex-col gap-3.5 mb-8">
-                {features.map((feature, i) => (
-                  <div key={i} className="flex items-center gap-3 max-lg:justify-center">
-                    <div className="w-7 h-7 rounded-full bg-green/20 flex items-center justify-center flex-shrink-0 text-[#7DDBA3] text-sm">
-                      ✓
-                    </div>
-                    <span className="text-white/80 text-[15px] font-medium">
-                      {feature}
-                    </span>
-                  </div>
-                ))}
-              </div>
 
               <div className="flex gap-3 max-lg:justify-center flex-wrap">
                 <Button
