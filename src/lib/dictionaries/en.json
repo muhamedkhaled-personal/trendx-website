@@ -1,0 +1,658 @@
+{
+  "shared": {
+    "navbar": {
+      "signInText": "Sign In",
+      "signInHref": "https://stage.survey.trendx.co/auth/login",
+      "langToggleLabel": "عربي"
+    },
+    "contactForm": {
+      "label": "Served Surveys",
+      "title": "Request a Custom Survey",
+      "subtitle": "Let our team handle it — from design to data collection and analysis. Fill out the form and we'll reach out within 24 hours.",
+      "fields": {
+        "fullName": "Full Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "company": "Company Name",
+        "role": "Job Role",
+        "audience": "Target Audience",
+        "goal": "Survey Goal"
+      },
+      "submitText": "Submit Request →",
+      "sentText": "✓ Sent — We'll reach out soon",
+      "trustNote": "🔒 Your information is safe and won't be shared with third parties"
+    },
+    "footer": {
+      "brandDescription": "A Saudi social platform for opinions and trends. Share your voice and be part of the community.",
+      "columns": [
+        {
+          "title": "Platform",
+          "links": [
+            {
+              "label": "Community",
+              "href": "#features"
+            },
+            {
+              "label": "How It Works",
+              "href": "#how"
+            },
+            {
+              "label": "Why TrendX",
+              "href": "#why"
+            }
+          ]
+        },
+        {
+          "title": "Services",
+          "links": [
+            {
+              "label": "Rewards",
+              "href": "#rewards"
+            },
+            {
+              "label": "Business Services",
+              "href": "/en/business"
+            },
+            {
+              "label": "Custom Research",
+              "href": "/en/business"
+            }
+          ]
+        },
+        {
+          "title": "Contact",
+          "links": [
+            {
+              "label": "hello@trendx.co",
+              "href": "mailto:hello@trendx.co"
+            },
+            {
+              "label": "Riyadh, Saudi Arabia",
+              "href": "#"
+            }
+          ]
+        }
+      ],
+      "copyright": "© 2026 TrendX. All rights reserved.",
+      "socials": {
+        "twitter": "https://twitter.com/TrndXco",
+        "linkedin": "https://linkedin.com/company/trendx",
+        "instagram": "https://instagram.com/trendx"
+      }
+    }
+  },
+  "landing": {
+    "meta": {
+      "title": "TrendX — Community of Opinions & Trends",
+      "description": "Share your opinion and discover what people think. A Saudi social platform for opinions and surveys."
+    },
+    "topBar": {
+      "text": "🏢 For Businesses — Survey Services & Custom Research",
+      "linkText": "Learn More →",
+      "linkHref": "/en/business"
+    },
+    "navLinks": [
+      {
+        "label": "Community",
+        "href": "#features"
+      },
+      {
+        "label": "Rewards",
+        "href": "#rewards"
+      },
+      {
+        "label": "Why TrendX",
+        "href": "#why"
+      },
+      {
+        "label": "App",
+        "href": "#app"
+      }
+    ],
+    "hero": {
+      "badge": "100% Saudi Platform",
+      "title": "Share your voice...\nand discover what people think",
+      "subtitle": "A Saudi social platform — share your ideas, follow trends, shape insights and earn rewards.",
+      "ctaPrimary": {
+        "label": "Join the Community →",
+        "href": "https://stage.survey.trendx.co/auth/login"
+      },
+      "ctaSecondary": {
+        "label": "Create a Survey",
+        "href": "https://stage.survey.trendx.co/auth/login"
+      },
+      "stats": [
+        {
+          "value": "+20K",
+          "label": "Community Members"
+        },
+        {
+          "value": "+100",
+          "label": "Published Reports"
+        },
+        {
+          "value": "+500",
+          "label": "Completed Surveys"
+        }
+      ],
+      "card": {
+        "avatar": "/images/hero/avatar-card.svg",
+        "name": "Khalid Abdullah",
+        "time": "Yesterday . 02:00 AM",
+        "question": "How do you generally feel while using social media?",
+        "emojis": [
+          { "emoji": "😍", "label": "Happy" },
+          { "emoji": "😊", "label": "Relaxed" },
+          { "emoji": "😐", "label": "Neutral" },
+          { "emoji": "😟", "label": "Sad" },
+          { "emoji": "😡", "label": "Stressed" }
+        ]
+      },
+      "floatingAvatars": [
+        {
+          "src": "/images/hero/avatar-float-2.svg",
+          "top": "8%",
+          "left": "8%",
+          "size": 64,
+          "animationDuration": "6s",
+          "animationDelay": "0s"
+        },
+        {
+          "src": "/images/hero/avatar-float-1.svg",
+          "top": "55%",
+          "left": "3%",
+          "size": 52,
+          "animationDuration": "5s",
+          "animationDelay": "1s"
+        }
+      ],
+      "floatingBadges": [
+        {
+          "text": "🔥 New Community Trend",
+          "top": "20px",
+          "right": "30%",
+          "animationDuration": "4s",
+          "animationDelay": "0s"
+        },
+        {
+          "text": "🏆 +50 Points Earned!",
+          "top": "68%",
+          "left": "12%",
+          "animationDuration": "4s",
+          "animationDelay": "0.6s"
+        }
+      ]
+    },
+    "features": {
+      "label": "✦ TrendX Community",
+      "title": "Share your opinion and discover community insights",
+      "subtitle": "A social platform designed for Saudi Arabia — share your ideas, follow trends, and earn rewards.",
+      "cards": [
+        {
+          "icon": "📝",
+          "title": "Publish Posts",
+          "description": "Express your views freely — share your thoughts with a community that values quality content."
+        },
+        {
+          "icon": "📊",
+          "title": "Vote & Engage",
+          "description": "Vote on posts and polls. Your opinion helps shape community trends and insights."
+        },
+        {
+          "icon": "🔖",
+          "title": "Save & Reshare",
+          "description": "Bookmark your favorites and reshare with your followers. Stay always updated."
+        },
+        {
+          "icon": "🎁",
+          "title": "Earn Rewards",
+          "description": "Participate in surveys and earn points redeemable for real rewards."
+        }
+      ]
+    },
+    "whyTrendX": {
+      "label": "✦ Why Us?",
+      "title": "Why join TrendX?",
+      "cards": [
+        {
+          "icon": "🇸🇦",
+          "title": "Saudi Community",
+          "description": "Designed for Saudi society — local content, Arabic-first, deep cultural understanding."
+        },
+        {
+          "icon": "🎯",
+          "title": "Accurate Real Insights",
+          "description": "Real data from a real community — a reflection of what people actually think."
+        },
+        {
+          "icon": "🔒",
+          "title": "Privacy First",
+          "description": "Your data is protected and encrypted — we guarantee full privacy and your opinions stay anonymous."
+        }
+      ]
+    },
+    "howItWorks": {
+      "label": "✦ How It Works",
+      "title": "Three simple steps to get started",
+      "subtitle": "",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Create Account",
+          "description": "Sign up for free in seconds. No credit card required."
+        },
+        {
+          "number": "2",
+          "title": "Engage & Interact",
+          "description": "Publish your views, vote on posts, and follow topics that matter to you."
+        },
+        {
+          "number": "3",
+          "title": "Earn & Benefit",
+          "description": "Take surveys, earn points and rewards, and discover community trends."
+        }
+      ]
+    },
+    "rewards": {
+      "label": "🎁 Real Rewards",
+      "title": "Turn your opinions into vouchers from 150+ brands",
+      "subtitle": "",
+      "steps": [
+        {
+          "icon": "📝",
+          "label": "Participate",
+          "description": "Complete surveys and share your opinion"
+        },
+        {
+          "icon": "⭐",
+          "label": "Earn Points",
+          "description": "Every survey earns you more points"
+        },
+        {
+          "icon": "🎁",
+          "label": "Redeem Vouchers",
+          "description": "Turn your points into vouchers from top brands"
+        }
+      ],
+      "brandCountLabel": "+150 brands",
+      "brands": [
+        {
+          "name": "Amazon",
+          "logo": "/images/brands/amazon.svg"
+        },
+        {
+          "name": "Google Play",
+          "logo": "/images/brands/googleplay.svg"
+        },
+        {
+          "name": "H&M",
+          "logo": "/images/brands/hm.svg"
+        },
+        {
+          "name": "iTunes",
+          "logo": "/images/brands/itunes.svg"
+        },
+        {
+          "name": "Nike",
+          "logo": "/images/brands/nike.svg"
+        },
+        {
+          "name": "Noon",
+          "logo": "/images/brands/noon.svg"
+        },
+        {
+          "name": "PlayStation",
+          "logo": "/images/brands/playstation.svg"
+        },
+        {
+          "name": "SHEIN",
+          "logo": "/images/brands/shein.svg"
+        },
+        {
+          "name": "Starbucks",
+          "logo": "/images/brands/starbucks.svg"
+        }
+      ]
+    },
+    "appSection": {
+      "badge": "📱 Mobile App",
+      "title": "Download the app and share your voice anywhere",
+      "subtitle": "TrendX app is available on iOS & Android — take surveys, earn points, and redeem rewards right from your phone.",
+      "features": [
+        "Instant notifications for new surveys",
+        "Track your points and rewards easily",
+        "Smooth mobile-first experience"
+      ],
+      "floatingBadges": [
+        {
+          "emoji": "🎁",
+          "text": "New reward!",
+          "subText": "Adidas voucher available"
+        },
+        {
+          "emoji": "⭐",
+          "text": "+150 points",
+          "subText": "Congrats!"
+        }
+      ]
+    },
+    "forBusiness": {
+      "title": "🏢 Are you an organization or business?",
+      "description": "Discover our business services — custom surveys, market research, advanced analytics, and a branded organization page to connect with your audience.",
+      "cta": "Explore Business Services →"
+    },
+    "ctaSection": {
+      "label": "Ready to share your voice and shape the trends?",
+      "title": "Ready to share your voice and shape the trends?",
+      "subtitle": "Join thousands in the TrendX community. Completely free — sign up now.",
+      "ctaPrimary": "Sign Up Free →",
+      "ctaSecondary": "",
+      "trustText": "Completely free • No credit card • Sign up in seconds"
+    }
+  },
+  "business": {
+    "meta": {
+      "title": "TrendX for Business — Custom Survey & Research Services",
+      "description": "Custom survey services, market research, and advanced analytics for organizations and businesses in Saudi Arabia."
+    },
+    "topBar": {
+      "text": "👥 Looking for the TrendX Community?",
+      "linkText": "Join the Community →",
+      "linkHref": "/en"
+    },
+    "navLinks": [
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Panel Insights",
+        "href": "#panel-insights"
+      },
+      {
+        "label": "Reports",
+        "href": "#reports"
+      },
+      {
+        "label": "Organizations",
+        "href": "#organizations"
+      },
+      {
+        "label": "Contact Us",
+        "href": "#contact"
+      }
+    ],
+    "hero": {
+      "badge": "TrendX for Business",
+      "title": "Know your audience precisely with TrendX Services",
+      "subtitle": "Custom surveys, market research, and advanced analytics — everything your organization needs to understand its audience and make data-driven decisions.",
+      "ctaPrimary": {
+        "label": "Request Custom Survey →",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Explore Services",
+        "href": "#services"
+      },
+      "stats": [
+        {
+          "value": "500+",
+          "label": "Completed Surveys"
+        },
+        {
+          "value": "20K+",
+          "label": "Community Members"
+        },
+        {
+          "value": "100+",
+          "label": "Published Reports"
+        }
+      ]
+    },
+    "partners": {
+      "label": "Trusted By Leading Organizations"
+    },
+    "services": {
+      "label": "✦ Our Services",
+      "title": "Complete solutions to understand your audience",
+      "subtitle": "We offer a comprehensive suite of services designed to help organizations reach and understand their audience.",
+      "cards": [
+        {
+          "icon": "📊",
+          "title": "Custom Surveys",
+          "description": "Design fully custom surveys or let our team handle everything from design to analysis.",
+          "features": [
+            "Fully custom design",
+            "From design to analysis"
+          ]
+        },
+        {
+          "icon": "🔬",
+          "title": "Market Research",
+          "description": "In-depth studies to understand the Saudi market — consumer trends, competitor analysis, and growth opportunities.",
+          "features": [
+            "Consumer trends",
+            "Competitor analysis"
+          ]
+        },
+        {
+          "icon": "📈",
+          "title": "Analytics & Reports",
+          "description": "Detailed reports with professional designs — precise data with actionable recommendations.",
+          "features": [
+            "Precise data",
+            "Actionable recommendations"
+          ]
+        }
+      ]
+    },
+    "panelInsights": {
+      "label": "✦ Panel Insights",
+      "title": "Direct access to a real Saudi community",
+      "subtitle": "Our community consists of thousands of verified participants across Saudi Arabia — rich demographic data and comprehensive coverage ensure accurate, actionable results.",
+      "stats": [
+        {
+          "prefix": "",
+          "highlight": "20",
+          "suffix": "K+",
+          "label": "Verified Panelists"
+        },
+        {
+          "prefix": "",
+          "highlight": "13",
+          "suffix": "",
+          "label": "Regions Covered"
+        },
+        {
+          "prefix": "",
+          "highlight": "150",
+          "suffix": "+",
+          "label": "Profiling Attributes"
+        },
+        {
+          "prefix": "<",
+          "highlight": "48",
+          "suffix": "h",
+          "label": "Avg. Response Time"
+        }
+      ],
+      "demographics": {
+        "gender": {
+          "icon": "👤",
+          "title": "Gender Distribution",
+          "bars": [
+            {
+              "label": "Male",
+              "value": "58%",
+              "percentage": 58,
+              "color": "#2FA66A"
+            },
+            {
+              "label": "Female",
+              "value": "42%",
+              "percentage": 42,
+              "color": "#7DDBA3"
+            }
+          ]
+        },
+        "age": {
+          "icon": "📊",
+          "title": "Age Groups",
+          "bars": [
+            {
+              "label": "18–24",
+              "value": "35%",
+              "percentage": 35,
+              "color": "#2FA66A"
+            },
+            {
+              "label": "25–34",
+              "value": "32%",
+              "percentage": 32,
+              "color": "#2FA66A"
+            },
+            {
+              "label": "35–44",
+              "value": "20%",
+              "percentage": 20,
+              "color": "#2FA66A"
+            },
+            {
+              "label": "45+",
+              "value": "13%",
+              "percentage": 13,
+              "color": "#2FA66A"
+            }
+          ]
+        },
+        "interests": {
+          "icon": "🎯",
+          "title": "Interests & Attributes",
+          "tags": [
+            "Technology",
+            "Sports",
+            "Education",
+            "Health",
+            "Travel",
+            "Shopping",
+            "Entertainment",
+            "Finance",
+            "Food & Dining",
+            "Automotive",
+            "Real Estate",
+            "Fashion"
+          ]
+        }
+      }
+    },
+    "reports": {
+      "label": "✦ Published Reports",
+      "title": "TrendX Reports — Insights driven by real data",
+      "subtitle": "We publish periodic reports covering the most important trends and topics in Saudi society — built on real data and surveys.",
+      "cards": [
+        {
+          "title": "Saudi Digitalization 2026",
+          "description": "",
+          "tag": "Digitalization",
+          "date": "Feb 9, 2026",
+          "image": "/images/reports/digitalization-2026.jpg",
+          "alt": "Saudi Digitalization 2026",
+          "href": "https://trendx.co/1021737/",
+          "featured": true
+        },
+        {
+          "title": "Smart Deception",
+          "description": "A comprehensive report on the escalating digital fraud landscape in Saudi Arabia and globally.",
+          "tag": "Ethics & Responsibility",
+          "date": "Dec 23, 2025",
+          "image": "/images/reports/smart-deception.jpg",
+          "alt": "Smart Deception",
+          "href": "https://trendx.co/1021262/"
+        },
+        {
+          "title": "Climate Anxiety",
+          "description": "56% of adults in 9 countries express serious concern about climate change impact.",
+          "tag": "Ethics & Responsibility",
+          "date": "Dec 29, 2025",
+          "image": "/images/reports/climate-anxiety.png",
+          "alt": "Climate Anxiety",
+          "href": "https://trendx.co/1021321/"
+        },
+        {
+          "title": "Nobility & Giving: Human to Human",
+          "description": "98% of participants confirmed volunteers were vital companions during treatment.",
+          "tag": "Ethics & Responsibility",
+          "date": "Dec 4, 2025",
+          "image": "/images/reports/nobility-giving.jpg",
+          "alt": "Nobility & Giving",
+          "href": "https://trendx.co/1021100/"
+        },
+        {
+          "title": "The Drawn Illusion",
+          "description": "How the Mercator projection distorted global geographical understanding for 450+ years.",
+          "tag": "Science & Tech",
+          "date": "Dec 2, 2025",
+          "image": "/images/reports/drawn-illusion.jpg",
+          "alt": "The Drawn Illusion",
+          "href": "https://trendx.co/1021008/"
+        }
+      ],
+      "ctaLabel": "View All Reports →",
+      "ctaHref": "https://trendx.co/"
+    },
+    "surveyTool": {
+      "label": "Survey Service",
+      "title": "Create surveys yourself or with Trendo AI assistant",
+      "subtitle": "An advanced survey engine that lets you design surveys easily or let Trendo AI agent create them automatically.",
+      "features": [
+        "Build surveys yourself with easy-to-use tools",
+        "Use Trendo AI to auto-generate smart questions",
+        "Advanced dashboard for results analysis",
+        "Target specific audiences by age and region"
+      ],
+      "primaryCta": "Start Creating a Survey",
+      "primaryCtaHref": "https://stage.survey.trendx.co/auth/login",
+      "secondaryCta": "Need an expert? Contact us",
+      "secondaryCtaHref": "#contact",
+      "trendoName": "Trendo AI",
+      "trendoRole": "AI Survey Agent",
+      "userMessage": "I want to create a survey about online shopping in Saudi Arabia",
+      "aiMessage": "Preparing your survey... I'll suggest clear questions you can edit right away! ✨"
+    },
+    "organizations": {
+      "label": "✦ For Organizations",
+      "title": "Create your organization page and connect with the community",
+      "subtitle": "",
+      "description": "Are you an organization? Join us to create your page and connect with your target audience in Saudi Arabia.",
+      "cards": [
+        {
+          "icon": "📱",
+          "title": "Branded Org Page",
+          "description": "Official presence with distinctive branding"
+        },
+        {
+          "icon": "📊",
+          "title": "Market Research",
+          "description": "Targeted surveys to understand your audience"
+        },
+        {
+          "icon": "📣",
+          "title": "Direct Engagement",
+          "description": "Publish content & engage as an entity"
+        },
+        {
+          "icon": "📈",
+          "title": "Advanced Analytics",
+          "description": "Precise data about your target audience"
+        }
+      ]
+    },
+    "bizCta": {
+      "title": "Ready to start your research project?",
+      "subtitle": "Contact us today for a free consultation. Our team is ready to help you design the perfect survey.",
+      "ctaPrimary": "Request Custom Survey →",
+      "ctaSecondary": "Explore Community",
+      "trustText": "Free consultation • Response within 24h • Expert team"
+    }
+  }
+}
