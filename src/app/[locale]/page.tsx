@@ -6,7 +6,6 @@ import Footer from "@/components/layout/Footer";
 import Hero from "@/components/landing/Hero";
 import Features from "@/components/landing/Features";
 import WhyTrendX from "@/components/landing/WhyTrendX";
-import HowItWorks from "@/components/landing/HowItWorks";
 import Rewards from "@/components/landing/Rewards";
 import AppSection from "@/components/landing/AppSection";
 import ForBusiness from "@/components/landing/ForBusiness";
@@ -59,7 +58,6 @@ export default async function LandingPage({
       <Hero {...dict.landing.hero} locale={params.locale} />
       <Features {...dict.landing.features} />
       <WhyTrendX {...dict.landing.whyTrendX} />
-      <HowItWorks {...dict.landing.howItWorks} />
       <Rewards {...dict.landing.rewards} />
       <AppSection {...dict.landing.appSection} />
       <ForBusiness {...dict.landing.forBusiness} locale={params.locale} />

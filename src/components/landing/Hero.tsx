@@ -32,7 +32,6 @@ interface HeroProps {
   title: string;
   subtitle: string;
   ctaPrimary: { label: string; href: string };
-  ctaSecondary: { label: string; href: string };
   stats: StatItem[];
   poll: PollData;
   floatingAvatars?: FloatingAvatar[];
@@ -44,7 +43,6 @@ export default function Hero({
   title,
   subtitle,
   ctaPrimary,
-  ctaSecondary,
   stats,
   poll,
   floatingAvatars,
@@ -99,11 +97,8 @@ export default function Hero({
                 </p>
 
                 <div className="flex gap-3 flex-wrap max-lg:justify-center">
-                  <Button variant="green" href={ctaPrimary.href}>
+                  <Button variant="green" size="lg" href={ctaPrimary.href}>
                     {ctaPrimary.label}
-                  </Button>
-                  <Button variant="outline-white" href={ctaSecondary.href}>
-                    {ctaSecondary.label}
                   </Button>
                 </div>
 

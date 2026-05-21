@@ -8,7 +8,7 @@
     "contactForm": {
       "label": "Served Surveys",
       "title": "Request a Custom Survey",
-      "subtitle": "Let our team handle it — from design to data collection and analysis. Fill out the form and we'll reach out within 24 hours.",
+      "subtitle": "Let our team handle it, from design to data collection and analysis. Fill out the form and we'll reach out within 24 hours.",
       "fields": {
         "fullName": "Full Name",
         "email": "Email Address",
@@ -19,7 +19,7 @@
         "goal": "Survey Goal"
       },
       "submitText": "Submit Request →",
-      "sentText": "✓ Sent — We'll reach out soon",
+      "sentText": "✓ Sent. We'll reach out soon",
       "trustNote": "Your information is safe and will not be shared with third parties"
     },
     "footer": {
@@ -31,10 +31,6 @@
             {
               "label": "Community",
               "href": "#features"
-            },
-            {
-              "label": "How It Works",
-              "href": "#how"
             },
             {
               "label": "Why TrendX",
@@ -83,11 +79,11 @@
   },
   "landing": {
     "meta": {
-      "title": "TrendX — Community of Opinions & Trends",
+      "title": "TrendX | Community of Opinions & Trends",
       "description": "Share your opinion and discover what people think. A social platform for opinions and surveys."
     },
     "topBar": {
-      "text": "For businesses and brands — survey services and custom research",
+      "text": "For businesses and brands. Survey services and custom research.",
       "linkText": "Learn More →",
       "linkHref": "/en/business"
     },
@@ -111,28 +107,24 @@
     ],
     "hero": {
       "badge": "The community speaks",
-      "title": "Share your voice...\nand discover what people think",
-      "subtitle": "A social platform — share your ideas, follow trends, shape insights and earn rewards.",
+      "title": "Your vote moves the needle.",
+      "subtitle": "Your time has value. Vote on live polls, watch the percentages shift, and earn rewards with every opinion.",
       "ctaPrimary": {
-        "label": "Join the Community →",
-        "href": "https://stage.survey.trendx.co/auth/login"
-      },
-      "ctaSecondary": {
-        "label": "Create a Survey",
+        "label": "Join now",
         "href": "https://stage.survey.trendx.co/auth/login"
       },
       "stats": [
         {
           "value": "+20K",
-          "label": "Community Members"
+          "label": "Active members"
         },
         {
-          "value": "+100",
-          "label": "Published Reports"
+          "value": "+150",
+          "label": "Reward brands"
         },
         {
-          "value": "+500",
-          "label": "Completed Surveys"
+          "value": "100%",
+          "label": "Anonymous"
         }
       ],
       "poll": {
@@ -169,28 +161,23 @@
     },
     "features": {
       "label": "✦ TrendX Community",
-      "title": "Share your opinion and discover community insights",
-      "subtitle": "A social platform that connects you to an active community — share your ideas, follow trends, and earn rewards.",
+      "title": "What’s in it for you?",
+      "subtitle": "Three things you get back when you join the conversation.",
       "cards": [
         {
           "icon": "PenLine",
-          "title": "Publish Posts",
-          "description": "Express your views freely — share your thoughts with a community that values quality content."
+          "title": "Be heard",
+          "description": "Share takes with a community that actually engages, not just silent followers."
         },
         {
           "icon": "BarChart3",
-          "title": "Vote & Engage",
-          "description": "Vote on posts and polls. Your opinion helps shape community trends and insights."
-        },
-        {
-          "icon": "Bookmark",
-          "title": "Save & Reshare",
-          "description": "Bookmark your favorites and reshare with your followers. Stay always updated."
+          "title": "Shape what’s trending",
+          "description": "Real polls, real percentages. Your vote moves them."
         },
         {
           "icon": "Gift",
-          "title": "Earn Rewards",
-          "description": "Participate in surveys and earn points redeemable for real rewards."
+          "title": "Your opinions have value",
+          "description": "Trade opinions for vouchers from 150+ brands you actually shop at."
         }
       ]
     },
@@ -199,41 +186,19 @@
       "title": "Why join TrendX?",
       "cards": [
         {
-          "icon": "Users",
-          "title": "Community-First",
-          "description": "Built for the community — localized content, Arabic-first, deep cultural understanding."
+          "icon": "Languages",
+          "title": "Arabic-first by design",
+          "description": "Polls and posts written in Arabic by people who understand the culture. Not translated from English."
         },
         {
-          "icon": "Target",
-          "title": "Accurate Real Insights",
-          "description": "Real data from a real community — a reflection of what people actually think."
+          "icon": "BadgeCheck",
+          "title": "Verified voters, not bots",
+          "description": "Every account is verified. One vote per person. The numbers reflect real opinions, not inflated traffic."
         },
         {
-          "icon": "ShieldCheck",
-          "title": "Privacy First",
-          "description": "Your data is protected and encrypted — we guarantee full privacy and your opinions stay anonymous."
-        }
-      ]
-    },
-    "howItWorks": {
-      "label": "✦ How It Works",
-      "title": "Three simple steps to get started",
-      "subtitle": "",
-      "steps": [
-        {
-          "number": "1",
-          "title": "Create Account",
-          "description": "Sign up for free in seconds. No credit card required."
-        },
-        {
-          "number": "2",
-          "title": "Engage & Interact",
-          "description": "Publish your views, vote on posts, and follow topics that matter to you."
-        },
-        {
-          "number": "3",
-          "title": "Earn & Benefit",
-          "description": "Take surveys, earn points and rewards, and discover community trends."
+          "icon": "EyeOff",
+          "title": "Anonymous by default",
+          "description": "Your name never appears next to a poll response. Vote freely, stay private."
         }
       ]
     },
@@ -301,7 +266,7 @@
     "appSection": {
       "badge": "✦ Mobile App",
       "title": "Download the app and share your voice anywhere",
-      "subtitle": "TrendX app is available on iOS & Android — take surveys, earn points, and redeem rewards right from your phone.",
+      "subtitle": "TrendX app is available on iOS & Android. Take surveys, earn points, and redeem rewards right from your phone.",
       "features": [
         "Instant notifications for new surveys",
         "Track your points and rewards easily",
@@ -322,13 +287,13 @@
     },
     "forBusiness": {
       "title": "Running a business?",
-      "description": "Discover our business services — custom surveys, market research, advanced analytics, and a dedicated brand page to connect with your audience.",
+      "description": "Discover our business services: custom surveys, market research, advanced analytics, and a dedicated brand page to connect with your audience.",
       "cta": "Explore Business Services →"
     },
     "ctaSection": {
       "label": "Ready to share your voice and shape the trends?",
       "title": "Ready to share your voice and shape the trends?",
-      "subtitle": "Join thousands in the TrendX community. Completely free — sign up now.",
+      "subtitle": "Join thousands in the TrendX community. Completely free. Sign up now.",
       "ctaPrimary": "Sign Up Free →",
       "ctaSecondary": "",
       "trustText": "Completely free • No credit card • Sign up in seconds"
@@ -336,7 +301,7 @@
   },
   "business": {
     "meta": {
-      "title": "TrendX for Business — Custom Survey & Research Services",
+      "title": "TrendX for Business | Custom Survey & Research Services",
       "description": "Custom survey services, market research, and advanced analytics for businesses and brands."
     },
     "topBar": {
@@ -369,7 +334,7 @@
     "hero": {
       "badge": "TrendX for Business",
       "title": "Know your audience precisely with TrendX Services",
-      "subtitle": "Custom surveys, market research, and advanced analytics — everything your business needs to understand its audience and make data-driven decisions.",
+      "subtitle": "Custom surveys, market research, and advanced analytics. Everything your business needs to understand its audience and make data-driven decisions.",
       "ctaPrimary": {
         "label": "Request Custom Survey →",
         "href": "#contact"
@@ -396,14 +361,46 @@
     "ticker": {
       "label": "Most active",
       "items": [
-        { "category": "Mental Health", "value": "48% of youth see negative impact from social media", "delta": "+2.4k" },
-        { "category": "Economy", "value": "61% changed financial plans due to inflation", "delta": "+880" },
-        { "category": "Technology", "value": "58% use AI daily", "delta": "+540" },
-        { "category": "Sports", "value": "34% predict Brazil to win World Cup 2026", "delta": "+2.1k" },
-        { "category": "Volunteering", "value": "56% want to volunteer for the first time", "delta": "+198" },
-        { "category": "Environment", "value": "72% see climate anxiety as real", "delta": "+390" },
-        { "category": "Travel", "value": "41% prefer domestic travel over international", "delta": "+612" },
-        { "category": "Education", "value": "68% prefer hybrid learning", "delta": "+720" }
+        {
+          "category": "Mental Health",
+          "value": "48% of youth see negative impact from social media",
+          "delta": "+2.4k"
+        },
+        {
+          "category": "Economy",
+          "value": "61% changed financial plans due to inflation",
+          "delta": "+880"
+        },
+        {
+          "category": "Technology",
+          "value": "58% use AI daily",
+          "delta": "+540"
+        },
+        {
+          "category": "Sports",
+          "value": "34% predict Brazil to win World Cup 2026",
+          "delta": "+2.1k"
+        },
+        {
+          "category": "Volunteering",
+          "value": "56% want to volunteer for the first time",
+          "delta": "+198"
+        },
+        {
+          "category": "Environment",
+          "value": "72% see climate anxiety as real",
+          "delta": "+390"
+        },
+        {
+          "category": "Travel",
+          "value": "41% prefer domestic travel over international",
+          "delta": "+612"
+        },
+        {
+          "category": "Education",
+          "value": "68% prefer hybrid learning",
+          "delta": "+720"
+        }
       ]
     },
     "partners": {
@@ -412,7 +409,7 @@
     "services": {
       "label": "✦ Our Services",
       "title": "Two ways to work with us",
-      "subtitle": "Launch your survey yourself in minutes — or hand it to our team, end-to-end from research to analysis.",
+      "subtitle": "Launch your survey yourself in minutes, or hand it to our team end-to-end from research to analysis.",
       "cards": [
         {
           "tag": "Self-Serve",
@@ -451,7 +448,7 @@
     "panelInsights": {
       "label": "✦ Panel Insights",
       "title": "Direct access to a real, active community",
-      "subtitle": "Our community consists of thousands of verified participants — rich demographic data and comprehensive coverage ensure accurate, actionable results.",
+      "subtitle": "Our community consists of thousands of verified participants. Rich demographic data and comprehensive coverage ensure accurate, actionable results.",
       "stats": [
         {
           "prefix": "",
@@ -549,8 +546,8 @@
     },
     "reports": {
       "label": "✦ Published Reports",
-      "title": "TrendX Reports — Insights driven by real data",
-      "subtitle": "We publish periodic reports covering the most important trends and topics shaping the community — built on real data and surveys.",
+      "title": "TrendX Reports: Insights driven by real data",
+      "subtitle": "We publish periodic reports covering the most important trends and topics shaping the community. Built on real data and surveys.",
       "cards": [
         {
           "title": "Saudi Digitalization 2026",
@@ -604,8 +601,8 @@
     },
     "surveyTool": {
       "label": "Meet Trendo",
-      "title": "Trendo — your AI assistant for building surveys in minutes",
-      "subtitle": "Describe your idea and let Trendo draft clear, accurate questions — fully editable before you launch.",
+      "title": "Trendo: your AI assistant for building surveys in minutes",
+      "subtitle": "Describe your idea and let Trendo draft clear, accurate questions. Fully editable before you launch.",
       "primaryCta": "Start Creating a Survey",
       "primaryCtaHref": "https://stage.survey.trendx.co/auth/login",
       "secondaryCta": "Need an expert? Contact us",

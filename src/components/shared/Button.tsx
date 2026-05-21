@@ -2,7 +2,7 @@ import Link from "next/link";
 import clsx from "clsx";
 
 type ButtonVariant = "green" | "navy" | "white" | "outline" | "outline-white";
-type ButtonSize = "default" | "sm";
+type ButtonSize = "default" | "sm" | "lg";
 
 interface ButtonBaseProps {
   variant?: ButtonVariant;
@@ -41,6 +41,7 @@ const variantClasses: Record<ButtonVariant, string> = {
 const sizeClasses: Record<ButtonSize, string> = {
   default: "px-8 py-3.5 text-base",
   sm: "px-6 py-2.5 text-sm",
+  lg: "px-10 py-4 text-[17px]",
 };
 
 export default function Button({

@@ -13,6 +13,9 @@ import {
   TrendingUp,
   Megaphone,
   LayoutDashboard,
+  Languages,
+  BadgeCheck,
+  EyeOff,
   type LucideProps,
 } from "lucide-react";
 
@@ -31,6 +34,9 @@ const ICONS = {
   TrendingUp,
   Megaphone,
   LayoutDashboard,
+  Languages,
+  BadgeCheck,
+  EyeOff,
 } as const;
 
 export type IconName = keyof typeof ICONS;

@@ -21,12 +21,6 @@ export interface FeatureCard {
   description: string;
 }
 
-export interface StepCard {
-  number: string;
-  title: string;
-  description: string;
-}
-
 export interface ServiceCard {
   tag: string;
   title: string;
